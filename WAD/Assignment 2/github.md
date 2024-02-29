@@ -49,3 +49,27 @@ remote: Resolving deltas: 100% (1/1), done.
 To https://github.com/DhruvSinha2003/Personal.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
+
+Dhruv@DhruvLenovo MINGW64 ~/Desktop/Coding/Personal (main)
+$ git add .
+warning: in the working copy of 'WAD/Assignment 2/github.md', CRLF will be replaced by LF the next time Git touches it
+
+Dhruv@DhruvLenovo MINGW64 ~/Desktop/Coding/Personal (main)
+$ git commit -m "Updated git file"
+[main d14ffab] Updated git file
+ 2 files changed, 51 insertions(+)
+ delete mode 100644 WAD/Assignment 2/github
+ create mode 100644 WAD/Assignment 2/github.md
+
+Dhruv@DhruvLenovo MINGW64 ~/Desktop/Coding/Personal (main)
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 1.02 KiB | 1.02 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DhruvSinha2003/Personal.git
+   968dc5e..d14ffab  main -> main
+branch 'main' set up to track 'origin/main'.
